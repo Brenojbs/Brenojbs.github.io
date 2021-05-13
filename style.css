@@ -1,7 +1,28 @@
 body{
-    background-color: rgb(45, 213, 243);
+    background-color:  rgba(192, 190, 190, 0.144);
 }
 .destaque{
-    color: darkblue;
+    color:  rgba(0, 163, 109, 0.884);
     font-style: italic;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#imagem-perfil{
+    margin-left: 5px;
+    margin-top: 15px;
+    border-radius: 70px;
+    box-shadow: 1px 1px 7px 4px rgba(9, 90, 9, 0.589);
 }
