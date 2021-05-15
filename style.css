@@ -1,28 +1,56 @@
-body{
-    background-color:  rgba(192, 190, 190, 0.144);
-}
-.destaque{
-    color:  rgba(0, 163, 109, 0.884);
-    font-style: italic;
-    font-weight: 800;
-    font-size: 18px;
-}
+    body{
+        background-color:  rgba(192, 190, 190, 0.144);
+        display: inline-block;
+    }
 
-h1{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+    #imagem-perfil{
+        float: left;
+        border-radius: 70px;
+                   
+    }
 
-p{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+    #p0{
+        top: 30px;
+        width: 200px;
+        position: absolute;
+        left: 180px;
+    }
 
-h2{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
+    .destaque{
+        color:  rgba(0, 163, 109, 0.884);
+        font-style: italic;
+        font-weight: 800;
+        font-size: 18px;
+    }
 
-#imagem-perfil{
-    margin-left: 5px;
-    margin-top: 15px;
-    border-radius: 70px;
-    box-shadow: 1px 1px 7px 4px rgba(9, 90, 9, 0.589);
-}
+    h1{
+       position: fixed;
+        margin-left: 14em;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        
+    }
+
+    p{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    #p2{
+        margin-left: 13px;
+    }
+
+    #list-soft{
+        padding-right: 30px;
+        margin-left: 10px;
+        margin-top: 370px;
+    }
+
+    #list-hard{
+        margin-left: 39px;
+    }
+
+    h2{
+        position: absolute;
+        top: 290px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+       
+    }
